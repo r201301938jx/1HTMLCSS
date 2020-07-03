@@ -42,6 +42,24 @@ header .headline {
 	margin-left: 20px;
 }
 
+@media screen and (max-width:1024px) {
+	.social i {
+		color: green;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.social i {
+		color: red;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.social i {
+		color: blue;
+	}
+}
+
 .nav-list {
 	text-align: center;
 	padding: 10px 0;
